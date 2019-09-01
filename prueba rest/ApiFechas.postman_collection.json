@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "8a9da110-d7f2-4c2d-ae93-fc803b79b9d3",
+		"name": "ApiFechas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "fechasFaltantes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8083/fechasFaltantes/fechas",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"fechasFaltantes",
+						"fechas"
+					]
+				},
+				"description": "servicio que consume REST GDD y devuelve fechas faltantes"
+			},
+			"response": []
+		}
+	]
+}
